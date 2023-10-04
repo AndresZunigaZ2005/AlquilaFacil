@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="623.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.alquila.controllers.VentanaPrincipalController">
+   <stylesheets>
+      <URL value="@styles.css" />
+   </stylesheets>
+   <children>
+      <Button fx:id="btnMasAlquilado" layoutX="32.0" layoutY="302.0" mnemonicParsing="false" onAction="#mostrarMasAlquilado" prefHeight="78.0" prefWidth="175.0" styleClass="save-button" text="Marca de Vehiculo más alquilada" wrapText="true" />
+      <Button fx:id="btnBuscar" layoutX="440.0" layoutY="128.0" onAction="#buscarVehiculo" styleClass="save-button" text="Buscar Vehículo" />
+      <Button fx:id="btnAnadirVehiculo" layoutX="440.0" layoutY="331.0" onAction="#anadirVehiculo" styleClass="save-button" text="Añadir Vehículo" />
+      <DatePicker fx:id="datePickerFechaDevolucion" layoutX="250.0" layoutY="138.0" promptText="Fecha de Devolución" />
+      <DatePicker fx:id="datePickerFechaRecogida" layoutX="45.0" layoutY="138.0" promptText="Fecha de Recogida" />
+      <Label fx:id="lblAlquilaFacil" layoutX="214.0" layoutY="44.0" styleClass="label-setStyle" text="AlquilaFácil" />
+      <Label fx:id="lblFechaDevolucion" layoutX="273.0" layoutY="109.0" text="Fecha de Devolución:" />
+      <Label fx:id="lblFechaRecogida" layoutX="81.0" layoutY="109.0" text="Fecha de Recogida:" />
+      <Spinner fx:id="spinnerHoraRecogida" layoutX="144.0" layoutY="187.0" prefHeight="25.0" prefWidth="80.0" />
+      <Spinner fx:id="spinnerMinutoRecogida" layoutX="144.0" layoutY="236.0" prefHeight="25.0" prefWidth="80.0" />
+      <Hyperlink fx:id="HyperLinkRegistro" layoutX="240.0" layoutY="341.0" onAction="#registrar" prefHeight="25.0" prefWidth="100.0" text="Registrar Cliente" wrapText="true" />
+      <Label layoutX="235.0" layoutY="324.0" text="¿El cliente no existe?" />
+      <Spinner fx:id="spinnerHoraDevolucion" layoutX="346.0" layoutY="187.0" prefHeight="25.0" prefWidth="80.0" />
+      <Spinner fx:id="spinnerMinutoDevolucion" layoutX="346.0" layoutY="236.0" prefHeight="25.0" prefWidth="80.0" />
+      <Label layoutX="81.0" layoutY="192.0" prefHeight="17.0" prefWidth="31.0" text="Hora" />
+      <Label layoutX="290.0" layoutY="191.0" prefHeight="17.0" prefWidth="31.0" text="Hora" />
+      <Label layoutX="81.0" layoutY="240.0" prefHeight="17.0" prefWidth="53.0" text="Minutos" />
+      <Label layoutX="294.0" layoutY="240.0" prefHeight="17.0" prefWidth="53.0" text="Minutos" />
+   </children>
+</AnchorPane>

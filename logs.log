@@ -1,0 +1,226 @@
+oct. 01, 2023 2:59:32 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 01, 2023 2:59:41 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearCliente
+INFO: El cliente de cedula 1094889063 se registro a la base de datos correctamente
+oct. 01, 2023 9:51:41 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 02, 2023 8:37:57 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 02, 2023 9:08:22 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 02, 2023 9:09:07 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearCliente
+INFO: El cliente de cedula 1094889063 se registro a la base de datos correctamente
+oct. 02, 2023 9:09:36 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearCliente
+WARNING: El cliente ya existe
+oct. 02, 2023 10:16:04 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 02, 2023 10:16:23 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearCliente
+WARNING: Todos los campos deben de ser llenados correctamente
+oct. 02, 2023 10:17:16 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearCliente
+INFO: El cliente de cedula 1094889063 se registro a la base de datos correctamente
+oct. 02, 2023 10:17:59 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearVehiculos
+INFO: El vehiculo de placa LJR651 se registro a la base de datos correctamente
+oct. 02, 2023 10:18:33 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearVehiculos
+INFO: El vehiculo de placa LJR652 se registro a la base de datos correctamente
+oct. 02, 2023 10:26:21 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 02, 2023 10:32:56 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 02, 2023 10:33:29 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearCliente
+WARNING: Todos los campos deben de ser llenados correctamente
+oct. 02, 2023 10:45:08 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearCliente
+WARNING: Todos los campos deben de ser llenados correctamente
+oct. 02, 2023 1:56:50 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 02, 2023 1:57:48 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearCliente
+INFO: El cliente de cedula 1094889063 se registro a la base de datos correctamente
+oct. 02, 2023 1:58:29 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearCliente
+INFO: El cliente de cedula 1094889063 se registro a la base de datos correctamente
+oct. 02, 2023 2:09:00 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 02, 2023 2:11:15 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 02, 2023 2:12:11 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 02, 2023 3:05:54 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 02, 2023 3:11:32 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 02, 2023 3:13:46 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 02, 2023 3:29:54 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 02, 2023 3:30:47 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearVehiculos
+INFO: El vehiculo de placa Andres se registro a la base de datos correctamente
+oct. 02, 2023 3:41:08 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 02, 2023 3:41:34 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearVehiculos
+INFO: El vehiculo de placa luis se registro a la base de datos correctamente
+oct. 02, 2023 7:43:10 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 02, 2023 7:44:13 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearCliente
+INFO: El cliente de cedula 1094889063 se registro a la base de datos correctamente
+oct. 02, 2023 7:45:30 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearCliente
+WARNING: El cliente ya existe
+oct. 02, 2023 7:47:13 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearVehiculos
+INFO: El vehiculo de placa LJR651 se registro a la base de datos correctamente
+oct. 02, 2023 8:03:03 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 02, 2023 8:04:32 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearVehiculos
+INFO: El vehiculo de placa LJR651 se registro a la base de datos correctamente
+oct. 02, 2023 8:17:34 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 02, 2023 8:18:38 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 02, 2023 8:21:03 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 02, 2023 8:21:56 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 02, 2023 8:26:05 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 02, 2023 8:31:33 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 02, 2023 8:32:22 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 02, 2023 8:41:15 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 02, 2023 8:42:51 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 02, 2023 8:51:07 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 02, 2023 9:08:54 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 02, 2023 9:10:14 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 02, 2023 9:10:52 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 02, 2023 9:11:27 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 02, 2023 9:11:59 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 02, 2023 9:12:56 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 02, 2023 9:13:33 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 02, 2023 9:24:18 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 02, 2023 9:30:01 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 02, 2023 10:06:55 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 02, 2023 10:10:43 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 02, 2023 10:31:56 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 02, 2023 10:35:50 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 02, 2023 10:39:32 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 03, 2023 8:06:49 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 03, 2023 8:19:40 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 03, 2023 9:00:27 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 03, 2023 9:01:05 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearCliente
+INFO: El cliente de cedula 1094889063 se registro a la base de datos correctamente
+oct. 03, 2023 9:07:57 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 03, 2023 9:08:54 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearCliente
+INFO: El cliente de cedula 1094889063 se registro a la base de datos correctamente
+oct. 03, 2023 9:09:14 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 03, 2023 9:09:44 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearCliente
+INFO: El cliente de cedula 1094889063 se registro a la base de datos correctamente
+oct. 03, 2023 9:12:58 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 03, 2023 9:13:37 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearCliente
+INFO: El cliente de cedula 1094889063 se registro a la base de datos correctamente
+oct. 03, 2023 9:13:55 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearCliente
+WARNING: El cliente ya existe
+oct. 03, 2023 9:14:27 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 03, 2023 9:15:18 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 03, 2023 9:15:52 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 03, 2023 9:16:39 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearCliente
+INFO: El cliente de cedula 1094889063 se registro a la base de datos correctamente
+oct. 03, 2023 9:16:53 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 03, 2023 9:17:04 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearCliente
+INFO: El cliente de cedula 1094889063 se registro a la base de datos correctamente
+oct. 03, 2023 9:25:32 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearCliente
+WARNING: El cliente ya existe
+oct. 03, 2023 9:26:01 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 03, 2023 9:26:11 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearCliente
+INFO: El cliente de cedula 1094889063 se registro a la base de datos correctamente
+oct. 03, 2023 9:27:47 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 03, 2023 9:28:35 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearCliente
+INFO: El cliente de cedula 1094889063 se registro a la base de datos correctamente
+oct. 03, 2023 9:28:52 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 03, 2023 9:29:02 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearCliente
+INFO: El cliente de cedula 1094889063 se registro a la base de datos correctamente
+oct. 03, 2023 9:42:16 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 03, 2023 9:42:54 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearCliente
+INFO: El cliente de cedula 1094889063 se registro a la base de datos correctamente
+oct. 03, 2023 9:43:04 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 03, 2023 9:43:13 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearCliente
+INFO: El cliente de cedula 1094889063 se registro a la base de datos correctamente
+oct. 03, 2023 9:46:34 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 03, 2023 9:46:43 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearCliente
+INFO: El cliente de cedula 1094889063 se registro a la base de datos correctamente
+oct. 03, 2023 9:46:54 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 03, 2023 9:47:03 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearCliente
+INFO: El cliente de cedula 1094889063 se registro a la base de datos correctamente
+oct. 03, 2023 10:07:02 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 03, 2023 10:07:39 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearCliente
+INFO: El cliente de cedula 1094889063 se registro a la base de datos correctamente
+oct. 03, 2023 1:18:09 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 03, 2023 8:37:43 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 03, 2023 10:51:40 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 03, 2023 10:52:17 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearCliente
+INFO: El cliente de cedula 1094889063 se registro a la base de datos correctamente
+oct. 03, 2023 10:52:46 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearVehiculos
+INFO: El vehiculo de placa LJR651 se registro a la base de datos correctamente
+oct. 03, 2023 10:54:48 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 03, 2023 10:54:57 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearCliente
+INFO: El cliente de cedula 1094889063 se registro a la base de datos correctamente
+oct. 03, 2023 10:55:20 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearVehiculos
+INFO: El vehiculo de placa LJR651 se registro a la base de datos correctamente
+oct. 03, 2023 11:10:07 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 03, 2023 11:10:19 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearCliente
+INFO: El cliente de cedula 1094889063 se registro a la base de datos correctamente
+oct. 03, 2023 11:10:45 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearVehiculos
+INFO: El vehiculo de placa LJR651 se registro a la base de datos correctamente
+oct. 03, 2023 11:14:12 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 03, 2023 11:14:40 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearCliente
+INFO: El cliente de cedula 1094889063 se registro a la base de datos correctamente
+oct. 03, 2023 11:14:58 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearVehiculos
+INFO: El vehiculo de placa LJR651 se registro a la base de datos correctamente
+oct. 03, 2023 11:16:04 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 03, 2023 11:16:15 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearCliente
+INFO: El cliente de cedula 1094889063 se registro a la base de datos correctamente
+oct. 03, 2023 11:16:33 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearVehiculos
+INFO: El vehiculo de placa LJR651 se registro a la base de datos correctamente
+oct. 03, 2023 11:18:20 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 03, 2023 11:18:33 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearCliente
+INFO: El cliente de cedula 1094889063 se registro a la base de datos correctamente
+oct. 03, 2023 11:18:53 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearVehiculos
+INFO: El vehiculo de placa LJR651 se registro a la base de datos correctamente

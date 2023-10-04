@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="439.0" prefWidth="331.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.alquila.controllers.RegistroVehiculosController">
+    <stylesheets>
+        <URL value="@styles.css" />
+    </stylesheets>
+    <padding>
+        <Insets bottom="20" left="20" right="20" top="20" />
+    </padding>
+    <children>
+      <AnchorPane prefHeight="2.0" prefWidth="291.0">
+         <children>
+            <Label layoutX="27.0" layoutY="-1.0" styleClass="label-setStyle" text="Registrar Vehiculos" />
+         </children>
+      </AnchorPane>
+        <GridPane styleClass="grid-pane" VBox.vgrow="ALWAYS">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints />
+                <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <Label text="Placa:" GridPane.rowIndex="1" />
+                <TextField fx:id="placaField" GridPane.columnIndex="1" GridPane.rowIndex="1" styleClass="text-fieldDecorator"/>
+                <Label text="Referencia:" GridPane.rowIndex="2" />
+                <TextField fx:id="referenciaField" GridPane.columnIndex="1" GridPane.rowIndex="2" styleClass="text-fieldDecorator"/>
+                <Label text="Marca:" GridPane.rowIndex="3" />
+                <TextField fx:id="marcaField" GridPane.columnIndex="1" GridPane.rowIndex="3" styleClass="text-fieldDecorator"/>
+                <Label text="Modelo:" GridPane.rowIndex="4" />
+                <TextField fx:id="modeloField" GridPane.columnIndex="1" GridPane.rowIndex="4" styleClass="text-fieldDecorator"/>
+                <Label text="Imagen:" GridPane.rowIndex="5" />
+                <HBox GridPane.columnIndex="1" GridPane.rowIndex="6">
+                    <CheckBox fx:id="automaticoCheckbox" text="Automático" />
+                </HBox>
+                <Label text="Kilometraje:" GridPane.rowIndex="7" />
+                <TextField fx:id="kilometrajeField" GridPane.columnIndex="1" GridPane.rowIndex="7" styleClass="text-fieldDecorator"/>
+                <Label text="Precio por día:" GridPane.rowIndex="8" />
+                <TextField fx:id="precioDiaField" GridPane.columnIndex="1" GridPane.rowIndex="8" styleClass="text-fieldDecorator"/>
+                <Label text="Número de sillas:" GridPane.rowIndex="9" />
+                <TextField fx:id="sillasField" GridPane.columnIndex="1" GridPane.rowIndex="9" styleClass="text-fieldDecorator"/>
+            <Label text="Transmisión" GridPane.rowIndex="6" />
+            <Button fx:id="btnBuscarImagen" mnemonicParsing="false" onAction="#buscarImagen" prefHeight="25.0" prefWidth="149.0" style="-fx-background-color: #4CAF50; -fx-text-fill: white;" text="Buscar Imagen" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            </children>
+        </GridPane>
+      <AnchorPane prefHeight="35.0" prefWidth="291.0">
+         <children>
+              <Button fx:id="btnGuardarVehiculo" layoutX="179.0" layoutY="-1.0" onAction="#guardarVehiculo" styleClass="save-button" text="Guardar" />
+            <Button fx:id="btnIrAtras" layoutX="14.0" layoutY="-1.0" onAction="#irAtras" styleClass="save-button" text="Ir Atras" />
+         </children>
+      </AnchorPane>
+    </children>
+</VBox>

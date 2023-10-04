@@ -1,0 +1,79 @@
+/* styles.css */
+.grid-pane {
+    -fx-padding: 20;
+    -fx-hgap: 10;
+    -fx-vgap: 10;
+}
+
+.save-button {
+    -fx-font-size: 16px;
+    -fx-padding: 10 20;
+    -fx-background-color: #4CAF50; /* Color de fondo */
+    -fx-text-fill: white; /* Color de texto */
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.label-setStyle{
+    -fx-font-size: 24px;   /* Tamaño de fuente */
+    -fx-font-weight: bold;  /* Negrita */
+    -font-family: Verdana;
+    -fx-text-fill: #000000;  /* Color de texto (Negro) */
+    -fx-padding: 10px;  /* Relleno interno */
+    -fx-border-radius: 10px;  /* Radio de borde */
+    -fx-background-radius: 10px; /* Radio de fondo */
+}
+
+.save-button:hover {
+    -fx-background-color: #45a049; /* Cambiar color al pasar el mouse */
+}
+
+.text-fieldDecorator {
+    -fx-background-color: #dcdcdc; /* Hacer el fondo transparente */
+    -fx-border-color: transparent transparent #45a049 transparent; /* Color del borde solo en la parte inferior */
+    -fx-border-width: 0 0 2px 0; /* Ancho del borde solo en la parte inferior */
+    -fx-border-radius: 10px; /* Esquinas redondeadas */
+    -fx-padding: 2px; /* Sin espaciado interno */
+    -fx-font-size: 14px; /* Tamaño de fuente */
+}
+
+/* Cambiar color del texto cuando se enfoca */
+.text-fieldDecorator:focused {
+    -fx-border-color: #2980b9; /* Cambiar el color del borde cuando se enfoca */
+}
+
+/* Estilo para el DatePicker */
+.date-picker {
+    -fx-control-inner-background: white; /* Color de fondo */
+    -fx-prompt-text-fill: white; /* Color del texto del DatePicker */
+    -fx-text-fill: white; /* Color del texto de las fechas seleccionadas */
+}
+
+/* Cambia el color de los días de la semana en el DatePicker */
+.date-picker .day-name-cell {
+    -fx-background-color: transparent; /* Fondo transparente */
+    -fx-text-fill: white; /* Color del texto de los días de la semana */
+}
+
+/* Cambia el color de los números de día en el DatePicker */
+.date-picker .date-cell {
+    -fx-background-color: transparent; /* Fondo transparente */
+    -fx-text-fill: #000000; /* Color del texto de los números de día */
+}
+
+/* Cambia el color del botón de la flecha del DatePicker */
+.date-picker .arrow-button {
+    -fx-background-color: #000000; /* Color de fondo de la flecha */
+}
+
+/* Estilo para el Spinner */
+.spinner {
+    -fx-background-color: transparent; /* Color de fondo */
+    -fx-text-fill: white; /* Color del texto del Spinner */
+}
+
+/* Cambia el color de la flecha del Spinner */
+.spinner .increment-arrow-button, .spinner .decrement-arrow-button {
+    -fx-background-color: #FFFFFF; /* Color de fondo de las flechas */
+    -fx-shape: "M0,0 L1,0 0.5,1 Z"; /* Personalización de la forma de las flechas */
+}
