@@ -1,8 +1,5 @@
 package co.edu.uniquindio.alquila.main;
 
-import co.edu.uniquindio.alquila.controllers.RegistroClientesController;
-import co.edu.uniquindio.alquila.controllers.RegistroVehiculosController;
-import co.edu.uniquindio.alquila.controllers.VentanaIniciarSesionController;
 import co.edu.uniquindio.alquila.controllers.VentanaPrincipalController;
 import co.edu.uniquindio.alquila.model.AlquilaFacil;
 import javafx.application.Application;
@@ -11,9 +8,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-import java.io.FileInputStream;
 import java.io.IOException;
-import java.io.ObjectInputStream;
 
 public class Main extends Application {
 
@@ -21,7 +16,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         try{
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("/VentanaPrincipal.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/ventanas/VentanaPrincipal.fxml"));
             Parent root = loader.load();
             Scene scene = new Scene(root);
             primaryStage.setScene(scene);

@@ -10,7 +10,7 @@
 <?import java.net.URL?>
 <AnchorPane id="AnchorPane" prefHeight="200" prefWidth="400" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.alquila.controllers.GenerarFacturaController">
     <stylesheets>
-        <URL value="@styles.css" />
+        <URL value="@../styles.css" />
     </stylesheets>
     <children>
         <Label layoutX="38" layoutY="32" text="Cédula del Cliente:" />

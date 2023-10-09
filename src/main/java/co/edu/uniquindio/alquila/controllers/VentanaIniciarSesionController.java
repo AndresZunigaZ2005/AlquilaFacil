@@ -1,6 +1,5 @@
 package co.edu.uniquindio.alquila.controllers;
 
-import co.edu.uniquindio.alquila.controllers.VentanaPrincipalController;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -49,7 +48,7 @@ public class VentanaIniciarSesionController {
 
     @FXML
     void iniciarSesion(ActionEvent event) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("/VentanaPrincipal.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/ventanas/VentanaPrincipal.fxml"));
 
         Scene scene = new Scene(root);
         Stage stage = new Stage();
@@ -66,7 +65,7 @@ public class VentanaIniciarSesionController {
 
     @FXML
     void registrarse(ActionEvent event) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("/RegistroClientes.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/ventanas/RegistroClientes.fxml"));
 
         Scene scene = new Scene(root);
         Stage stage = new Stage();

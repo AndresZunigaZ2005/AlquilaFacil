@@ -11,6 +11,8 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
+import java.util.Formatter;
+import java.util.Scanner;
 import java.util.logging.FileHandler;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -20,7 +22,7 @@ import java.util.logging.SimpleFormatter;
 @Setter
 public class AlquilaFacil /*implements Serializable*/ {
 
-    private final String RUTA = "alquilaFacil.data";
+    //private final String RUTA = "alquilaFacil.data";
 
     private ArrayList<Cliente> listaClientes;
     private ArrayList<Vehiculo> listaVehiculos;
@@ -30,7 +32,6 @@ public class AlquilaFacil /*implements Serializable*/ {
 
     private static AlquilaFacil alquilaFacil;
     private AlquilaFacil(){
-
         try {
             FileHandler fh = new FileHandler("logs.log", true);
             fh.setFormatter(new SimpleFormatter());
@@ -43,6 +44,10 @@ public class AlquilaFacil /*implements Serializable*/ {
         this.listaClientes = new ArrayList<>();
         this.listaVehiculos = new ArrayList<>();
         this.listaFactura = new ArrayList<>();
+        //Deserialización
+        leerClientes();
+        leerVehiculos();
+        leerFactura();
     }
 
     public static AlquilaFacil getInstance(){
@@ -114,6 +119,23 @@ public class AlquilaFacil /*implements Serializable*/ {
                         .ciudad(ciudad)
                         .direccion(direccion)
                         .build();
+
+                try{
+                    FileWriter fw = new FileWriter("src/main/resources/persistencia/clientes.txt", true);
+                    Formatter f = new Formatter(fw);
+                    f.format(cliente.getCedula()+";"+
+                            cliente.getNombre()+";"+
+                            cliente.getTelefono()+";"+
+                            cliente.getEmail()+";"+
+                            cliente.getCiudad()+";"+
+                            cliente.getDireccion()+"%n");
+                    fw.close();
+                } catch (FileNotFoundException e) {
+                    LOGGER.log(Level.SEVERE,e.getMessage(), e);
+                } catch (IOException e) {
+                    LOGGER.log(Level.WARNING,e.getMessage());
+                }
+
                 listaClientes.add(cliente);
                 /*try {
                     ObjectOutputStream flujoSalida = new ObjectOutputStream(new FileOutputStream(RUTA));
@@ -196,6 +218,12 @@ public class AlquilaFacil /*implements Serializable*/ {
                         .isDisponible(true)
                         .build();
                 listaVehiculos.add(vehiculo);
+
+                try {
+                    serializarObjeto("src/main/resources/persistencia/vehiculo.ser", listaVehiculos);
+                }catch(IOException e){
+                    LOGGER.log(Level.SEVERE, e.getMessage());
+                }
                 return vehiculo;
             }
         }
@@ -243,7 +271,6 @@ public class AlquilaFacil /*implements Serializable*/ {
             throw new FacturaException("La fecha de inicio no puede ser después a la fecha final");
         }
         if(pagoFactura != null || fechaFinal != null || obtenerCliente(cedulaCliente) != null || obtenerVehiculo(placaVehiculo) != null){
-            int dias = (int)ChronoUnit.DAYS.between(fechaInicio, fechaFinal);
             Vehiculo vehiculo=obtenerVehiculo(placaVehiculo);
             Factura factura = new Factura.FacturaBuilder()
                     .cliente(obtenerCliente(cedulaCliente))
@@ -251,14 +278,72 @@ public class AlquilaFacil /*implements Serializable*/ {
                     .fechaAlquiler(fechaInicio)
                     .fechaRegreso(fechaFinal)
                     .vehiculo(vehiculo)
-                    .precioTotal(vehiculo.getPrecioDia()*dias)
+                    .precioTotal((vehiculo.getPrecioDia()*ChronoUnit.DAYS.between(fechaInicio, fechaFinal)))
                     .build();
+            try {
+                serializarObjeto("src/main/resources/persistencia/factura.ser", listaFactura);
+            }catch(IOException e){
+                LOGGER.log(Level.SEVERE, e.getMessage());
+            }
             listaFactura.add(factura);
             LOGGER.log(Level.WARNING, "Se creo una nueva factura");
             return factura;
         }else{
             LOGGER.log(Level.WARNING, "Error al crear la factura");
             throw new FacturaException("Los campos obligatorios no están bien escritos, por favor revise nuevamente");
+        }
+    }
+
+
+    /**
+     * /////////////////////////////////////////////////////////////////////////////////
+     */
+    public void leerClientes(){
+        try(Scanner scanner = new Scanner(new File("src/main/resources/persistencia/clientes.txt"))) {
+            while (scanner.hasNextLine()) {
+                String linea = scanner.nextLine();
+                String[] datos = linea.split(";");
+                this.listaClientes.add(new Cliente.ClienteBuilder()
+                        .cedula(datos[0])
+                        .nombre(datos[1])
+                        .telefono(datos[2])
+                        .email(datos[3])
+                        .ciudad(datos[4])
+                        .direccion(datos[5])
+                        .build());
+            }
+        } catch (FileNotFoundException e) {
+            LOGGER.log(Level.SEVERE, e.getMessage());
+        }
+    }
+
+    public static void serializarObjeto(String ruta, Object objeto) throws IOException{
+        ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(ruta));
+        oos.writeObject(objeto);
+        oos.close();
+    }
+
+    public static Object deserializarObjeto(String ruta) throws IOException, ClassNotFoundException {
+        ObjectInputStream ois = new ObjectInputStream(new FileInputStream(ruta));
+        Object objeto = ois.readObject();
+        ois.close();
+        return objeto;
+    }
+
+    private void leerVehiculos(){
+        try{
+            this.listaVehiculos = (ArrayList<Vehiculo>)deserializarObjeto("src/main/resources/persistencia/vehiculo.ser");
+        } catch (IOException | ClassNotFoundException e) {
+            LOGGER.log(Level.SEVERE, e.getMessage());
+        }
+    }
+
+
+    private void leerFactura(){
+        try{
+            this.listaFactura = (ArrayList<Factura>)deserializarObjeto("src/main/resources/persistencia/factura.ser");
+        } catch (IOException | ClassNotFoundException e) {
+            LOGGER.log(Level.SEVERE, e.getMessage());
         }
     }
 }

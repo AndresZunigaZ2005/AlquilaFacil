@@ -1,9 +1,7 @@
 package co.edu.uniquindio.alquila.controllers;
 
 import co.edu.uniquindio.alquila.model.AlquilaFacil;
-import co.edu.uniquindio.alquila.model.Cliente;
 import co.edu.uniquindio.alquila.model.Factura;
-import co.edu.uniquindio.alquila.model.Vehiculo;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -14,9 +12,7 @@ import javafx.scene.control.*;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 
-import java.io.FileInputStream;
 import java.io.IOException;
-import java.io.ObjectInputStream;
 import java.net.URL;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
@@ -66,23 +62,30 @@ public class VentanaPrincipalController implements Initializable {
     @FXML
     private Button btnMasAlquilado;
 
-    private LocalDateTime localDateTimeRecogida=Propiedades.getInstanceLocal();
-    private LocalDateTime localDateTimeDevolucion=Propiedades.getInstanceLocal();
+    @FXML
+    private ResourceBundle resources;
 
+    @FXML
+    private URL location;
 
     //datePickerFechaRecogida.getValue().atTime(LocalTime.of(spinnerHoraRecogida.getValue(), spinnerMinutoRecogida.getValue()));
 
 
     @FXML
     void buscarVehiculo(ActionEvent event) throws IOException {
+        LocalDateTime localDateTimeRecogida = datePickerFechaRecogida.getValue().atTime(LocalTime.of(spinnerHoraRecogida.getValue(), spinnerMinutoRecogida.getValue()));
+        LocalDateTime localDateTimeDevolucion = datePickerFechaDevolucion.getValue().atTime(LocalTime.of(spinnerHoraDevolucion.getValue(), spinnerMinutoDevolucion.getValue()));
         if(datePickerFechaDevolucion.getValue() == null || datePickerFechaRecogida.getValue() == null){
             alerta(Alert.AlertType.ERROR, "Error", "Error", "No hay un intervalo de fechas disponible");
+        } else if (localDateTimeRecogida.isBefore(LocalDateTime.now())){
+            alerta(Alert.AlertType.ERROR, "Error", "Error", "La fecha de recogida ya pasó");
         } else if (datePickerFechaRecogida.getValue().isAfter(datePickerFechaDevolucion.getValue()) || datePickerFechaRecogida.getValue().equals(datePickerFechaDevolucion.getValue())) {
             alerta(Alert.AlertType.ERROR, "Error", "Error", "La fecha de recogida no puede estar después a la fecha de devolución");
         } else {
-            localDateTimeRecogida = datePickerFechaRecogida.getValue().atTime(LocalTime.of(spinnerHoraRecogida.getValue(), spinnerMinutoRecogida.getValue()));
-            localDateTimeDevolucion = datePickerFechaDevolucion.getValue().atTime(LocalTime.of(spinnerHoraDevolucion.getValue(), spinnerMinutoDevolucion.getValue()));
-            Parent root = FXMLLoader.load(getClass().getResource("/GenerarFactura.fxml"));
+
+            Propiedades.getInstance().setFechasCompartidas(localDateTimeRecogida, localDateTimeDevolucion);
+
+            Parent root = FXMLLoader.load(getClass().getResource("/ventanas/GenerarFactura.fxml"));
             Scene scene = new Scene(root);
             Stage stage = new Stage();
             stage.setScene(scene);
@@ -94,10 +97,11 @@ public class VentanaPrincipalController implements Initializable {
 
     @FXML
     void registrar(ActionEvent event) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("/RegistroClientes.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/ventanas/RegistroClientes.fxml"));
 
         Scene scene = new Scene(root);
         Stage stage = new Stage();
+        stage.setResizable(false);
         stage.setScene(scene);
         stage.initModality(Modality.WINDOW_MODAL);
         stage.show();
@@ -106,9 +110,10 @@ public class VentanaPrincipalController implements Initializable {
 
     @FXML
     public void anadirVehiculo(ActionEvent actionEvent) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("/RegistroVehiculos.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/ventanas/RegistroVehiculos.fxml"));
         Scene scene = new Scene(root);
         Stage stage = new Stage();
+        stage.setResizable(false);
         stage.setScene(scene);
         stage.initModality(Modality.WINDOW_MODAL);
         stage.show();
@@ -201,5 +206,15 @@ public class VentanaPrincipalController implements Initializable {
         } catch (IOException | ClassNotFoundException e) {
             throw new RuntimeException(e);
         }*/
+
+        /*try(Scanner scanner = new Scanner(new File("src/main/resources/clientes.txt"))){
+            while(scanner.hasNextLine()){
+                alquilaFacil.getListaClientes().add(new Cliente(scanner.nextLine()));
+            }
+        }*/
+
+        /*Propiedades.getInstance().addListener(resourceBundle1 -> {
+            lblFechaDevolucion.setText();
+        });*/
     }
 }

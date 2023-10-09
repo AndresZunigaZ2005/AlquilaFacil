@@ -13,8 +13,6 @@ import javafx.stage.Modality;
 import javafx.stage.Stage;
 
 import java.io.IOException;
-import java.io.ObjectInput;
-import java.io.ObjectInputStream;
 
 public class RegistroClientesController {
 
@@ -76,7 +74,7 @@ public class RegistroClientesController {
 
     @FXML
     private void irAtras(ActionEvent event) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("/VentanaPrincipal.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/ventanas/VentanaPrincipal.fxml"));
         Scene scene = new Scene(root);
         Stage stage = new Stage();
         stage.setScene(scene);

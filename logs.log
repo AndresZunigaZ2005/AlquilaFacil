@@ -224,3 +224,109 @@ oct. 03, 2023 11:18:33 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearC
 INFO: El cliente de cedula 1094889063 se registro a la base de datos correctamente
 oct. 03, 2023 11:18:53 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearVehiculos
 INFO: El vehiculo de placa LJR651 se registro a la base de datos correctamente
+oct. 04, 2023 4:34:55 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 04, 2023 4:40:34 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 04, 2023 4:41:41 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearCliente
+INFO: El cliente de cedula 1094889063 se registro a la base de datos correctamente
+oct. 04, 2023 4:44:07 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearVehiculos
+INFO: El vehiculo de placa JQM056 se registro a la base de datos correctamente
+oct. 04, 2023 4:44:27 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearFactura
+WARNING: Se creo una nueva factura
+oct. 04, 2023 4:45:36 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearFactura
+WARNING: Se creo una nueva factura
+oct. 04, 2023 4:47:16 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearVehiculos
+INFO: El vehiculo de placa LJR651 se registro a la base de datos correctamente
+oct. 04, 2023 4:47:37 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearFactura
+WARNING: Se creo una nueva factura
+oct. 04, 2023 4:48:01 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearFactura
+WARNING: Se creo una nueva factura
+oct. 04, 2023 4:57:04 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 04, 2023 4:57:51 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearCliente
+INFO: El cliente de cedula 1094889063 se registro a la base de datos correctamente
+oct. 04, 2023 5:01:01 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 04, 2023 5:01:46 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearCliente
+INFO: El cliente de cedula 1094889063 se registro a la base de datos correctamente
+oct. 04, 2023 5:18:58 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 04, 2023 5:19:45 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 04, 2023 5:19:59 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearCliente
+INFO: El cliente de cedula 1094889063 se registro a la base de datos correctamente
+oct. 04, 2023 5:22:20 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 04, 2023 5:22:31 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearCliente
+INFO: El cliente de cedula 1094889063 se registro a la base de datos correctamente
+oct. 04, 2023 5:29:49 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 04, 2023 5:30:00 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearCliente
+WARNING: El cliente ya existe
+oct. 07, 2023 4:27:32 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 07, 2023 4:28:42 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearVehiculos
+INFO: El vehiculo de placa LJR651 se registro a la base de datos correctamente
+oct. 07, 2023 4:30:08 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 07, 2023 4:30:34 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearVehiculos
+WARNING: El vehículo de placa LJR651 no se añadio, debido a que ya existe
+oct. 07, 2023 8:57:35 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 07, 2023 9:31:36 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 07, 2023 9:34:50 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearFactura
+WARNING: Se creo una nueva factura
+oct. 08, 2023 9:29:13 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 08, 2023 9:30:11 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearFactura
+WARNING: Se creo una nueva factura
+oct. 08, 2023 9:35:29 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 08, 2023 9:47:01 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 08, 2023 9:47:17 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearFactura
+WARNING: Se creo una nueva factura
+oct. 08, 2023 10:01:19 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 08, 2023 10:01:35 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearFactura
+WARNING: Se creo una nueva factura
+oct. 08, 2023 10:11:36 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 08, 2023 10:12:40 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearVehiculos
+INFO: El vehiculo de placa JQM056 se registro a la base de datos correctamente
+oct. 08, 2023 10:16:37 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 08, 2023 10:19:16 A. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 09, 2023 2:10:02 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 09, 2023 2:13:30 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 09, 2023 2:14:04 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearFactura
+WARNING: Se creo una nueva factura
+oct. 09, 2023 2:15:45 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearCliente
+INFO: El cliente de cedula 1035972050 se registro a la base de datos correctamente
+oct. 09, 2023 2:18:03 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearCliente
+INFO: El cliente de cedula 1091884480 se registro a la base de datos correctamente
+oct. 09, 2023 2:24:22 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 09, 2023 2:26:28 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 09, 2023 2:29:43 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 09, 2023 2:34:20 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 09, 2023 2:47:14 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 09, 2023 3:06:14 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 09, 2023 3:06:14 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil leerFactura
+SEVERE: src\main\resources\persistencia\factura.ser (El sistema no puede encontrar el archivo especificado)
+oct. 09, 2023 3:08:50 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearFactura
+WARNING: Se creo una nueva factura
+oct. 09, 2023 3:09:50 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil <init>
+INFO: Se crea una nueva instanica de Alquilafacil
+oct. 09, 2023 3:11:30 P. M. co.edu.uniquindio.alquila.model.AlquilaFacil crearCliente
+INFO: El cliente de cedula 1004917064 se registro a la base de datos correctamente

@@ -61,7 +61,7 @@ public class RegistroVehiculosController {
 
     @FXML
     private void irAtras() throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("/VentanaPrincipal.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/ventanas/VentanaPrincipal.fxml"));
         Scene scene = new Scene(root);
         Stage stage = new Stage();
         stage.setScene(scene);

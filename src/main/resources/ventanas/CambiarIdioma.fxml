@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.alquila.controllers.CambiarIdiomaController">
+    <stylesheets>
+        <URL value="@../styles.css" />
+    </stylesheets>
+    <children>
+        <HBox alignment="CENTER">
+            <children>
+                <Label fx:id="lblTitulo" text="Seleccione el Idioma" />
+            </children>
+        </HBox>
+        <GridPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308">
+            <columnConstraints>
+                <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <Button fx:id="btnEspanol" mnemonicParsing="false" onAction="#espanolEvent" text="Español" />
+                <Button fx:id="btnIngles" mnemonicParsing="false" onAction="#inglesEvent"  text="Ingles" GridPane.columnIndex="1" />
+            </children>
+        </GridPane>
+    </children>
+</VBox>
+

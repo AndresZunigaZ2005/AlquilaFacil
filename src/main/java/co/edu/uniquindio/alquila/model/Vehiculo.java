@@ -1,13 +1,15 @@
 package co.edu.uniquindio.alquila.model;
 import lombok.*;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class Vehiculo {
+public class Vehiculo implements Serializable {
+
 
     private String placa;
     private String referencia;
@@ -22,6 +24,6 @@ public class Vehiculo {
 
     @Override
     public String toString() {
-        return marca+"-"+referencia+"-"+modelo+"-"+placa;
+        return "Marca:"+marca+"- Referencia"+referencia+"- Modelo:"+modelo+"- Precio diario:"+precioDia;
     }
 }

@@ -15,7 +15,7 @@
 
 <VBox prefHeight="439.0" prefWidth="331.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.alquila.controllers.RegistroVehiculosController">
     <stylesheets>
-        <URL value="@styles.css" />
+        <URL value="@../styles.css" />
     </stylesheets>
     <padding>
         <Insets bottom="20" left="20" right="20" top="20" />

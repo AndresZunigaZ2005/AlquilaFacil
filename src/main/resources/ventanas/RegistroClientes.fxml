@@ -14,7 +14,7 @@
 
 <BorderPane prefHeight="384.0" prefWidth="441.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.alquila.controllers.RegistroClientesController">
     <stylesheets>
-        <URL value="@styles.css" />
+        <URL value="@../styles.css" />
     </stylesheets>
     <center>
         <VBox alignment="CENTER" prefHeight="0.0" prefWidth="441.0" spacing="20">

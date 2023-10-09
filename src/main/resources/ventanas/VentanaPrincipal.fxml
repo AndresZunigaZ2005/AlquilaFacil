@@ -10,7 +10,7 @@
 
 <AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="623.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.alquila.controllers.VentanaPrincipalController">
    <stylesheets>
-      <URL value="@styles.css" />
+      <URL value="@../styles.css" />
    </stylesheets>
    <children>
       <Button fx:id="btnMasAlquilado" layoutX="32.0" layoutY="302.0" mnemonicParsing="false" onAction="#mostrarMasAlquilado" prefHeight="78.0" prefWidth="175.0" styleClass="save-button" text="Marca de Vehiculo más alquilada" wrapText="true" />
