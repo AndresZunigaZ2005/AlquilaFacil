@@ -22,6 +22,7 @@ public class VentanaPrincipalController implements Initializable {
 
     //private final SingletonController singletonController= SingletonController.getInstance();
 
+
     private final AlquilaFacil alquilaFacil = AlquilaFacil.getInstance();
     @FXML
     private Hyperlink HyperLinkRegistro;

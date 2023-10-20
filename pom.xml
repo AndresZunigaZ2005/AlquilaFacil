@@ -55,12 +55,6 @@
             <scope>provided</scope>
         </dependency>
 
-        <dependency>
-            <groupId>org.openjfx</groupId>
-            <artifactId>javafx-graphics</artifactId>
-            <version>21-ea+17</version>
-        </dependency>
-
         <!-- https://mvnrepository.com/artifact/org.danekja/jdk-serializable-functional -->
         <dependency>
             <groupId>org.danekja</groupId>

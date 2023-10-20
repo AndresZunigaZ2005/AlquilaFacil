@@ -19,9 +19,7 @@ public class Propiedades {
     private ResourceBundle recursos;
 
 
-/*    private Propiedades(){
-        this.resourceBundle = ResourceBundle.getBundle(RUTA);
-    }*/
+
     public static Propiedades getInstance(){
         if(instancia == null){
             instancia = new Propiedades();
